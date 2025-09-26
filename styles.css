@@ -34,12 +34,14 @@ body {
 }
 
 .channel-icon {
+    height: 60px;
+    width: 60px;
     border-radius: 50%;
 }
 
 .video-title:link,
 .video-title:visited {
-    display: inline-block;
+    display: block;
     color: #fff;
     text-decoration: none;
     font-size: 1.4rem;
@@ -49,7 +51,7 @@ body {
 
 .channel-name:link,
 .channel-name:visited {
-    display: inline-block;
+    display: block;
     color: #fff;
     text-decoration: none;
     margin-bottom: 10px;
